@@ -1,0 +1,77 @@
+html,body{
+      background-image: url('../images/bg.jpg');
+      background-repeat: repeat;
+}
+.main-container{
+  width: 100%;
+  background-image:  url('../images/bgmenu.png');
+  padding: 20px;
+
+}
+
+.menu_title{
+  padding: 0px;
+  margin: 0px;
+  font-weight: 300;
+  color: white;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+  font-family: 'Kelly Slab';
+}
+
+.gallery{
+    margin-top: 60px;
+    width: 90%;
+}
+.gallery_title{
+  color: rgb(87, 87, 87);
+  font-family: 'Kelly Slab';
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 3px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.gallery_subtitle{
+  color: rgb(217,1,25);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 0px;
+}
+
+.gallery{
+  width: 100%;
+}
+
+.gallery_col_image{
+
+  margin-top: 10px;
+  padding-left: : 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+
+}
+
+.row{
+    overflow: hidden;
+}
+.gallery_image{
+  outline: 6px solid rgba(255,255,255,0.4);
+  outline-offset: -6px;
+  transition: 0.2s;
+}
+.gallery_image:hover{
+  filter: brightness(80%);
+
+}
+.exia{
+  color: rgb(217,1,25);
+}
+
+.btn-danger{
+  
+  border-radius: 3px;
+
+}

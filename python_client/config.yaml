@@ -1,0 +1,21 @@
+#CONFIG FILE FOR THE PHOTOBOX APP
+config:
+  token_passphrase: sametokenasphp
+  step_add_logo: true
+  enable_debug: true
+
+path:
+  server_url: http://yourdomain.com/youruploadpage.php
+  server_test_connexion_url: http://yourdomain.com/yourcheckconnexionpage.php
+  images_folder: images/
+  processed_images_folder: processed_images/
+  logo_path: res/logo.png
+
+gpio:
+  main: 26
+  prev: 19
+  next: 13
+
+camera:
+  width: 1920
+  height: 1080
