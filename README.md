@@ -7,7 +7,7 @@ In this repository, you will find :
 
   - The python program for the photobox
   - The php server sources to host your photos
-  - The 3D model for the photobox (coming soon...)
+  - The 3D model for the photobox
 
 # Python side
 
